@@ -158,3 +158,50 @@
     flex-direction: column;
     max-width: 60%;
 }
+
+.cta-container {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    align-self: center;
+    padding: 50px 200px;
+    display: flex;
+    gap: 200px;
+    border-radius: 8px;
+}
+
+.cta-btn {
+    background-color: #3882F6;
+    color: white;
+    border-color: white;
+    border-radius: 8px;
+    padding: 0 28px;
+    font-size: 16px;
+}
+
+.cta-writing h3,
+.cta-writing p {
+    color: white;
+}
+
+.cta-heading {
+    font-size: 28px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background: #1F2937;
+}
+
+.copyright-text {
+    font-size: 16px;
+    color: #E5E7EB;
+
+}
